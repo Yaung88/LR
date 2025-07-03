@@ -57,3 +57,14 @@ nav {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.logo img {
+  height: 300px; /* lub 360px jeśli chcesz większe */
+  width: auto;
+}
