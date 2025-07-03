@@ -25,6 +25,6 @@ main {
 }
 
 .logo img {
-  height: 350px;  /* zwiększona wysokość */
+  height: 300px; 
   width: auto;
 }
