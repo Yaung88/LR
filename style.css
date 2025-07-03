@@ -21,7 +21,14 @@ main {
   justify-content: center;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
 .logo img {
-  max-height: 55px;
+  height: 60px;
   width: auto;
 }
