@@ -14,3 +14,14 @@ header, footer {
 main {
   padding: 2em;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: center;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
