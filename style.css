@@ -22,6 +22,6 @@ main {
 }
 
 .logo img {
-  max-height: 50%;
+  max-height: 30px;
   width: auto;
 }
