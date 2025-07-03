@@ -1,35 +1,5 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f8f8f8;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-header, footer {
-  background-color: #222;
-  color: white;
-  text-align: center;
-  padding: 1em;
-}
-
-main {
-  padding: 2em;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1em;
-}
-
-.logo img {
-  height: 360px; /* lub 300px, lub 360px – zależnie od preferencji */
-  width: auto;
-}
 nav {
-  background-color: #333;
+  background-color: #444;
 }
 
 .menu {
@@ -39,21 +9,41 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background-color: #444;
 }
 
-.menu li {
-  margin: 0;
+.menu > li {
+  position: relative;
 }
 
 .menu a {
   display: block;
-  padding: 1em;
+  padding: 1em 1.5em;
   color: white;
   text-decoration: none;
   font-weight: bold;
-  transition: background 0.3s;
 }
 
 .menu a:hover {
+  background-color: #666;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
   background-color: #555;
+  min-width: 160px;
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown-content li a {
+  padding: 0.75em 1em;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
